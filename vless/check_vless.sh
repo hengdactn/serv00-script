@@ -158,7 +158,7 @@ main() {
             port=$(jq -r '.port' config.json)
             echo -e "UUID: ${uuid}"
             echo -e "Port: ${port}"
-            echo -e "域名: $USER.serv00.net"
+            echo -e "域名: $serv00.hengda.us.kg"
             echo -e "VLESS节点信息: vless://${uuid}@serv00.hengda.us.kg:${port}?flow=&security=none&encryption=none&type=ws&host=serv00.hengda.us.kg&path=/&sni=&fp=&pbk=&sid=#$USER.serv00.vless"
 
         else
